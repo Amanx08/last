@@ -121,7 +121,7 @@
 
   .section__pic-container {
     width: auto;
-    height: 46vw;
+    height: 92vw;
     justify-content: center;
   }
 
@@ -131,6 +131,7 @@
 
   .title {
     font-size: 2rem;
+    padding-bottom: 1rem;
   }
 
   .text-container {
@@ -139,5 +140,14 @@
 
   .hide {
     display: none;
+  }
+
+  .details-container {
+    width: 85%;
+    /* margin-top: 1rem; */
+  }
+
+  #about {
+    padding-top: 4rem;
   }
 }
