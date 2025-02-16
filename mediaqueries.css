@@ -25,7 +25,7 @@
 
   #experience,
   .experience-details-container {
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
 
   #profile,
@@ -58,6 +58,7 @@
 }
 
 @media screen and (max-width: 600px) {
+
   .article-container {
     justify-content: flex-start;
   }
@@ -151,5 +152,9 @@
 
   #about {
     padding-top: 4rem;
+  }
+
+  .project-img {
+    width: 100%;
   }
 }
