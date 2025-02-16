@@ -159,9 +159,17 @@ a:hover {
 }
 
 /* SECTIONS */
+#profile {}
+
+#contact,
+#projects,
+#experience,
+#about {
+  padding-top: 4vh;
+
+}
 
 section {
-  padding-top: 4vh;
   height: 96vh;
   margin: 0 10rem;
   box-sizing: border-box;

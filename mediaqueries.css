@@ -94,7 +94,9 @@
     align-items: center;
   }
 
-
+  .contact-info-upper-container {
+    padding: 1rem 2rem;
+  }
 
   .contact-info-container {
     margin: 0;
