@@ -48,6 +48,13 @@
 }
 
 @media screen and (max-width: 600px) {
+  .article-container{
+    justify-content: flex-start;
+  }
+  nav{
+    justify-content: space-between;
+    padding: 0rem 1rem;
+  }
   #contact,
   footer {
     height: 40vh;
@@ -67,6 +74,7 @@
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
+    flex-direction: column;
   }
   .contact-info-container {
     margin: 0;
