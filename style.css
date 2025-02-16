@@ -45,6 +45,10 @@ nav,
   display: flex;
 }
 
+.nav-links li {
+  text-align: left;
+}
+
 nav {
   justify-content: space-around;
   align-items: center;
@@ -287,8 +291,9 @@ section {
   position: relative;
 }
 
-.about-containers {
-  gap: 2rem;
+.about-containers,
+.slider_container {
+  gap: 1rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
 }
@@ -378,6 +383,8 @@ article .icon {
   cursor: default;
 }
 
+
+
 /* PROJECTS SECTION */
 
 #projects {
@@ -404,6 +411,15 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+
+
+/* Slick slider  */
+.js-card-Container {
+  margin: 2rem 1rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+
+}
+
 
 /* CONTACT */
 
