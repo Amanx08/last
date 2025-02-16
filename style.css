@@ -9,6 +9,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  /* background-color: rgb(223, 217, 217); */
 }
 
 html {
@@ -298,8 +299,9 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+  /* border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163); */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
   text-align: center;
 }
 
