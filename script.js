@@ -36,3 +36,19 @@ $(document).ready(function ($) {
   });
 });
 
+
+// Loader 
+
+
+// Show loading message for 1 second before transitioning to the loader
+setTimeout(() => {
+  document.getElementById("js_loadingMessage").style.display = "none"; // Hide Loading...
+  document.getElementById("js_loader").style.display = "block"; // Show loader
+  document.body.classList.add("reveal"); // Trigger loader animation and page reveal
+}, 1000);
+
+// Toggle reveal state on click to simulate user interaction
+document.addEventListener("click", () => {
+  document.body.classList.toggle("reveal");
+});
+
