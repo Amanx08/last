@@ -40,15 +40,36 @@ $(document).ready(function ($) {
 // Loader 
 
 
+// // Show loading message for 1 second before transitioning to the loader
+// setTimeout(() => {
+//   document.getElementById("js_loadingMessage").style.display = "none"; // Hide Loading...
+//   document.getElementById("js_loader").style.display = "block"; // Show loader
+//   document.body.classList.add("reveal"); // Trigger loader animation and page reveal
+// }, 1000);
+
+// // Toggle reveal state on click to simulate user interaction
+// document.addEventListener("click", () => {
+//   document.body.classList.toggle("reveal");
+// });
+
+
+
+let hasLoaded = false;
+
 // Show loading message for 1 second before transitioning to the loader
 setTimeout(() => {
   document.getElementById("js_loadingMessage").style.display = "none"; // Hide Loading...
   document.getElementById("js_loader").style.display = "block"; // Show loader
   document.body.classList.add("reveal"); // Trigger loader animation and page reveal
+  hasLoaded = true; // Mark that the page has loaded
 }, 1000);
 
-// Toggle reveal state on click to simulate user interaction
+// Prevent transition effect on subsequent clicks if page is already loaded
 document.addEventListener("click", () => {
-  document.body.classList.toggle("reveal");
+  if (hasLoaded && !document.body.classList.contains("reveal")) {
+    // Only toggle class if it has been loaded and reveal class is not present
+    document.body.classList.add("reveal");
+  }
 });
+
 
