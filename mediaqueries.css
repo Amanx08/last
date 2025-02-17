@@ -42,8 +42,15 @@
     height: fit-content;
   }
 
-  section {
-    margin: 0 5%;
+  #profile,
+  #contact,
+  #experience,
+  #about {
+    margin: 0 3%;
+  }
+
+  #projects {
+    margin: 0 1%;
   }
 
   .section__pic-container {
