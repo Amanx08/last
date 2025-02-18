@@ -338,7 +338,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   /* letter-spacing: .5em; */
   /* display: inline-block; */
   /* border: 4px double rgba(255, 255, 255, .25); */
