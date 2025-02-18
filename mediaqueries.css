@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
     height: 83vh;
-    margin-bottom: 6rem;
+    /* margin-bottom: 6rem; */
   }
 
   .about-containers {
@@ -66,6 +66,14 @@
 
 @media screen and (max-width: 600px) {
 
+  #contact,
+  #projects,
+  #experience,
+  #about {
+    padding: 4vh 0;
+
+  }
+
   .article-container {
     justify-content: flex-start;
   }
@@ -83,7 +91,7 @@
 
   #profile {
     height: auto;
-    margin-bottom: 0;
+    margin-bottom: 4vh;
   }
 
   article {

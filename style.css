@@ -269,18 +269,21 @@ a:hover {
 }
 
 /* SECTIONS */
-#profile {}
+#projects {
+  height: 96vh;
+
+}
 
 #contact,
 #projects,
 #experience,
 #about {
-  padding-top: 4vh;
+  padding: 8vh 0;
 
 }
 
 section {
-  height: 96vh;
+  /* height: 96vh; */
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -608,7 +611,7 @@ article .icon {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  height: 70vh;
+  height: 50vh;
 }
 
 .contact-info-upper-container {
