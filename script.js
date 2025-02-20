@@ -117,7 +117,7 @@ function showCursor() {
 
 // Function to reset the timeout for hiding the cursor
 function resetCursorTimeout() {
-  cursorTimeout = setTimeout(hideCursor, 2000);  // Hide cursor after 2 seconds of inactivity
+  cursorTimeout = setTimeout(hideCursor, 3000);  // Hide cursor after 2 seconds of inactivity
 }
 
 // Function to hide the cursor
