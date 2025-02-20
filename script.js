@@ -1,3 +1,12 @@
+//
+
+window.onload = function () {
+  window.scrollTo(0, 0)
+};
+
+
+// toggleMenu 
+
 function toggleMenu() {
   const menu = document.querySelector(".menu-links");
   const icon = document.querySelector(".hamburger-icon");
