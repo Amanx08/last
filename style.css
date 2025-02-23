@@ -680,7 +680,7 @@ footer p {
   top: calc(2rem * -0.5);
   left: calc(2rem * -0.5);
   pointer-events: none;
-  mix-blend-mode: difference!important;
+  mix-blend-mode: difference !important;
   /*   filter: url(#goo); */
 }
 
@@ -693,7 +693,7 @@ footer p {
   transform-origin: center center;
   border-radius: 2rem;
   background: #000000;
-  mix-blend-mode: difference;
+  mix-blend-mode: difference !important;
 
   /* z-index: 9999; */
 }
