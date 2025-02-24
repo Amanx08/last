@@ -41,7 +41,7 @@ p {
 /*  Logo animation  */
 
 .js_main_logo {
-  width: 250px;
+  width: 230px;
   height: 65px;
 }
 
@@ -53,7 +53,7 @@ p {
 .js_logo {
   fill: none;
   stroke: rgb(189, 186, 186);
-  stroke-width: 6;
+  stroke-width: 8;
   stroke-dasharray: 4000;
   stroke-dashoffset: 4000;
   animation: drawPath 10s ease-in-out infinite;
@@ -728,37 +728,7 @@ footer p {
 }
 
 
-
-
-
-
-/* Cursor pointer */
-
-
-/* #cursor {
-  position: fixed;
-  top: calc(2rem * -0.5);
-  left: calc(2rem * -0.5);
-  pointer-events: none;
-  mix-blend-mode: difference !important;
-
-}
-
-.cursor-circle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 2rem;
-  height: 2rem;
-  transform-origin: center center;
-  border-radius: 2rem;
-  background: #000000;
-  mix-blend-mode: difference !important;
-
-} */
-
-
-
+/* Cursor */
 
 
 .js-cursor_lg,
