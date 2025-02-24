@@ -71,17 +71,14 @@
     height: 35px;
   }
 
-  .cursor-circle {
-    display: none;
-  }
-
   .section__pic-container:hover {
     transform: scaleX(-1);
   }
 
-  /* .cursor-circle {
+  .js-cursor_lg,
+  .js-cursor_sm {
     display: none;
-  } */
+  }
 
   #contact,
   #projects,

@@ -734,13 +734,14 @@ footer p {
 
 /* Cursor pointer */
 
-#cursor {
+
+/* #cursor {
   position: fixed;
   top: calc(2rem * -0.5);
   left: calc(2rem * -0.5);
   pointer-events: none;
   mix-blend-mode: difference !important;
-  /*   filter: url(#goo); */
+
 }
 
 .cursor-circle {
@@ -754,5 +755,39 @@ footer p {
   background: #000000;
   mix-blend-mode: difference !important;
 
-  /* z-index: 9999; */
+} */
+
+
+
+
+
+.js-cursor_lg,
+.js-cursor_sm {
+  position: fixed;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  z-index: 9999;
+}
+
+.js-cursor_lg {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  /* Replace with your custom accent color variable */
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transition: 0.15s;
+}
+
+.js-cursor_sm {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  /* Replace with your custom accent color variable */
+  left: 15px;
+  top: 15px;
+  pointer-events: none;
+  transition: 0.2s;
 }
