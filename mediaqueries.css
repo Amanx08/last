@@ -66,6 +66,11 @@
 
 @media screen and (max-width: 600px) {
 
+  .js_main_logo {
+    width: 150px;
+    height: 35px;
+  }
+
   .cursor-circle {
     display: none;
   }
